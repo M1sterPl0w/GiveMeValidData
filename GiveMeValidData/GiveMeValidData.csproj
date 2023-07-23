@@ -7,11 +7,11 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageIcon>icon.png</PackageIcon>
+		<PackageIcon>icon.jpg</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="icon.png" Pack="true" PackagePath=""/>
+		<None Include="icon.jpg" Pack="true" PackagePath=""/>
 	</ItemGroup>
 
 	<ItemGroup>
