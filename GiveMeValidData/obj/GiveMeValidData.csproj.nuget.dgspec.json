@@ -35,6 +35,9 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU5105"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -45,6 +48,8 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "MinVer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[4.3.0, )"
             }
