@@ -1,4 +1,4 @@
-﻿namespace GiveMeValidData;
+﻿namespace M1sterPl0w.GiveMeValidData;
 
 /// <summary>
 /// A validator to validate objects

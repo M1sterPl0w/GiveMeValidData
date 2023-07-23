@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GiveMeValidData\GiveMeValidData.csproj" />
+    <ProjectReference Include="..\M1sterPl0w.GiveMeValidData\M1sterPl0w.GiveMeValidData.csproj" />
   </ItemGroup>
 
 </Project>

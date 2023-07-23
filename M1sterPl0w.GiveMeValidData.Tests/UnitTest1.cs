@@ -1,4 +1,4 @@
-namespace GiveMeValidData.Tests;
+namespace M1sterPl0w.GiveMeValidData.Tests;
 
 public class UnitTest1
 {

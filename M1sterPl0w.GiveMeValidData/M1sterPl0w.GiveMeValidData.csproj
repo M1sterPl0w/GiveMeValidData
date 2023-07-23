@@ -9,7 +9,7 @@
 	<PropertyGroup>
 		<Authors>Jeroen Jonkman</Authors>
 		<Description>Get grip on external data</Description>
-		<PackageProjectUrl>https://github.com/M1sterPl0w/GiveMeValidData.git</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/M1sterPl0w/M1sterPl0w.GiveMeValidData.git</PackageProjectUrl>
 		<PackageTags>library, validation, http, client</PackageTags>
 	</PropertyGroup>
 	
@@ -23,18 +23,6 @@
 
 	<ItemGroup>
 		<None Include="../assets/icon.jpg" Pack="true" Visible="false" PackagePath="/" />
-		<None Include="../README.md" Pack="true" Visible="false" PackagePath="/"/>
+		<None Include="../README.md" Pack="true" Visible="false" PackagePath="/" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		  <PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="MinVer" Version="4.3.0">
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-	</ItemGroup>
-
 </Project>
