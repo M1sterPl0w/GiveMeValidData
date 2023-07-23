@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "MinVer/4.3.0": {
+        "type": "package",
+        "build": {
+          "build/MinVer.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MinVer.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MinVer/4.3.0": {
+      "sha512": "YNVAW3loCFW4kTwensApaZUl+7xREK75QQNOFSbsbXx2sCSm9/IHBjUHsJGn3u0UA5r/sAqrdYBNUlOFfLhUrA==",
+      "type": "package",
+      "path": "minver/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/MinVer.targets",
+        "buildMultiTargeting/MinVer.targets",
+        "minver.4.3.0.nupkg.sha512",
+        "minver.nuspec",
+        "minver.png",
+        "minver/net6.0/McMaster.Extensions.CommandLineUtils.dll",
+        "minver/net6.0/MinVer",
+        "minver/net6.0/MinVer.Lib.dll",
+        "minver/net6.0/MinVer.deps.json",
+        "minver/net6.0/MinVer.dll",
+        "minver/net6.0/MinVer.runtimeconfig.json",
+        "minver/net6.0/NuGet.Versioning.dll",
+        "minver/net7.0/McMaster.Extensions.CommandLineUtils.dll",
+        "minver/net7.0/MinVer",
+        "minver/net7.0/MinVer.Lib.dll",
+        "minver/net7.0/MinVer.deps.json",
+        "minver/net7.0/MinVer.dll",
+        "minver/net7.0/MinVer.runtimeconfig.json",
+        "minver/net7.0/NuGet.Versioning.dll",
+        "minver/netcoreapp3.1/McMaster.Extensions.CommandLineUtils.dll",
+        "minver/netcoreapp3.1/MinVer",
+        "minver/netcoreapp3.1/MinVer.Lib.dll",
+        "minver/netcoreapp3.1/MinVer.deps.json",
+        "minver/netcoreapp3.1/MinVer.dll",
+        "minver/netcoreapp3.1/MinVer.runtimeconfig.json",
+        "minver/netcoreapp3.1/NuGet.Versioning.dll",
+        "minver/netcoreapp3.1/System.ComponentModel.Annotations.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "MinVer >= 4.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jeroe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jeroe\\Desktop\\GiveMeValidData\\GiveMeValidData\\GiveMeValidData.csproj",
+      "projectName": "GiveMeValidData",
+      "projectPath": "C:\\Users\\jeroe\\Desktop\\GiveMeValidData\\GiveMeValidData\\GiveMeValidData.csproj",
+      "packagesPath": "C:\\Users\\jeroe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jeroe\\Desktop\\GiveMeValidData\\GiveMeValidData\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jeroe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "MinVer": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[4.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
