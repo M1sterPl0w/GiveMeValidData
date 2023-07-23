@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "tuk/M7cBbXClXTuPuDki+eHim/4bmIqwksbkr/jD5bPutcyXiSZqx6ucEklIiGkg3GLZToCg68bZ0++l7FDNoA==",
+  "dgSpecHash": "g5osXABVxvwAbbDyxwGQ8dr8egCzNHZzG2Gfm/bU7HKg8g9ZVfWvtMPTREfBrP6guQaj/4deEPA81aKyP/U4iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jeroe\\Desktop\\GiveMeValidData\\GiveMeValidData\\GiveMeValidData.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jeroe\\.nuget\\packages\\dotnet.reproduciblebuilds\\1.1.1\\dotnet.reproduciblebuilds.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.sourcelink.azurerepos.git\\1.1.1\\microsoft.sourcelink.azurerepos.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.sourcelink.bitbucket.git\\1.1.1\\microsoft.sourcelink.bitbucket.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.sourcelink.github\\1.1.1\\microsoft.sourcelink.github.1.1.1.nupkg.sha512",
+    "C:\\Users\\jeroe\\.nuget\\packages\\microsoft.sourcelink.gitlab\\1.1.1\\microsoft.sourcelink.gitlab.1.1.1.nupkg.sha512",
     "C:\\Users\\jeroe\\.nuget\\packages\\minver\\4.3.0\\minver.4.3.0.nupkg.sha512"
   ],
   "logs": []
