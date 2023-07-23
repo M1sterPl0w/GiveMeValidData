@@ -15,16 +15,16 @@
 	
 	<PropertyGroup>
 		<PackageIcon>icon.jpg</PackageIcon>
-		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageLicenseFile>../LICENSE.txt</PackageLicenseFile>
 		<EnablePackageValidation>true</EnablePackageValidation>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReadmeFile>../README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<None Include="icon.jpg" Pack="true" PackagePath="" />
-		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
-		<None Include="README.md" Pack="true" PackagePath=""/>
+		<!--<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath=""/>-->
 	</ItemGroup>
 
 	<ItemGroup>
