@@ -7,7 +7,7 @@
 	<PropertyGroup>
 		<Authors>Jeroen Jonkman</Authors>
 		<Description>Get grip on external data</Description>
-		<PackageProjectUrl>https://github.com/M1sterPl0w/M1sterPl0w.GiveMeValidData.git</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/M1sterPl0w/GiveMeValidData.git</PackageProjectUrl>
 		<PackageTags>library, validation, http, client</PackageTags>
 	</PropertyGroup>
 	
